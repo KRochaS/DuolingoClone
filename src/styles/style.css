@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DIN Round Pro';
+    src: local('DIN Round Pro Black'), local('DIN-Round-Pro-Black'),
+        url('DINRoundPro-Black.woff2') format('woff2'),
+        url('DINRoundPro-Black.woff') format('woff'),
+        url('DINRoundPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
