@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11" width="16" height="11">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #afafaf } 
+	</style>
+	<g id="shop---inactive-">
+		<path id="Rectangle-Copy-8" fill-rule="evenodd" class="shp0" d="M14.33 10.98L2.09 10.98C1.34 10.98 0.73 10.37 0.73 9.62L0.73 1.9C0.73 1.15 1.34 0.54 2.09 0.54L14.33 0.54C15.08 0.54 15.69 1.15 15.69 1.9L15.69 9.62C15.69 10.37 15.08 10.98 14.33 10.98ZM13.49 8.78L13.49 2.74L2.93 2.74L2.93 8.78L13.49 8.78Z" />
+	</g>
+</svg>
