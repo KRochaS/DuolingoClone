@@ -13,7 +13,9 @@ const Learn: React.FC = () => {
 
             <Container>
             <Header/>
-                <Main />
+                <Main>
+                    <Text> oi </Text>
+                </Main>
             </Container>
         </Wrapper>
     );

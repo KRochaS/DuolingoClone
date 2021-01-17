@@ -58,7 +58,7 @@ width: 80px;
 
 `;
 export const ContainerCourse = styled.TouchableOpacity`
- flex-direction: row;
+ flex-direction: column;
  align-items: center;
  /* justify-content: space-around; */
  /* padding-left: 30px; */
@@ -70,7 +70,8 @@ export const ContainerCourse = styled.TouchableOpacity`
 border : solid;
 border-color : #5ab4e9;
 width: 70px;
-border-radius: 10
+border-radius: 10;
+margin-right: 20px;
 
 
 
@@ -83,6 +84,7 @@ font-size: 17px;
 padding-left: 5px;
 /* background-color: red; */
 width: 90px;
+/* margin-top: 20px; */
 /* background-image: url(${require(`../../../assets/us.png`)}); */
 
 

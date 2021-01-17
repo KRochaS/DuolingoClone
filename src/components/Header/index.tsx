@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 
-import { Container, Heading, Ofensive, Lingots, Button, Course, ContainerCourse} from './styles';
+import { Container, Heading, Ofensive, Lingots, Button, Course, ContainerCourse } from './styles';
 import { SvgUri } from 'react-native-svg';
 // import { RectButton } from 'react-native-gesture-handler';
 import Tooltip from 'react-native-walkthrough-tooltip';
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Header: React.FC = () => {
 
@@ -45,14 +46,28 @@ const Header: React.FC = () => {
                 contentStyle={{ height: 150, width: 400, backgroundColor: '#172E34' }}
                 content={<>
 
-                    <ContainerCourse onPress={handleNavigateBack} activeOpacity={1}>
-                        <SvgUri
-                            width="100%"
-                            height="100%"
-                            uri='https://www.flaticon.com/svg/static/icons/svg/940/940207.svg'
-                        />
-                    </ContainerCourse>
-                    <Course> Inglês </Course>
+                    <View style={{ flexDirection: 'row' }}>
+                        <ContainerCourse onPress={handleNavigateBack} activeOpacity={1}>
+                            <SvgUri
+                                width="100%"
+                                height="100%"
+                                uri='https://www.flaticon.com/svg/static/icons/svg/940/940207.svg'
+                            />
+                           <View style={{marginTop: 5, marginLeft: 7}}>
+                                <Course> Inglês </Course>
+                            </View>
+                        </ContainerCourse>
+
+                        <ContainerCourse onPress={handleNavigateBack} activeOpacity={1}>
+                            <Icon style={{justifyContent: 'center', alignItems: 'center', marginTop: 20}} name="plus" size={18} color="#999" />
+                            <View style={{marginTop: 25, marginLeft: 5}}>
+                                <Course> Curso </Course>
+                            </View>
+                        </ContainerCourse>
+                    </View>
+
+
+
 
                 </>
                 }
